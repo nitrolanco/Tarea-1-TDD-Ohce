@@ -1,0 +1,13 @@
+F
+======================================================================
+FAIL: test_stop (__main__.TestStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File ".\test_3.py", line 8, in test_stop
+    self.assertEqual(functions.handle_stop(), f"Adios {name}!")
+AssertionError: None != 'Adios Anibal!'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (failures=1)

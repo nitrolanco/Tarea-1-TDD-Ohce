@@ -16,3 +16,5 @@ def handle_word(word):
         return "¡Bonita palabra!"
     else:
         return word[::-1]
+def handle_stop():
+    return
