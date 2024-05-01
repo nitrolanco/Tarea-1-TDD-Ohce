@@ -12,4 +12,7 @@ def welcome(name):
     
 
 def handle_word(word):
-    return
+    if word == word[::-1]:
+        return "¡Bonita palabra!"
+    else:
+        return word[::-1]

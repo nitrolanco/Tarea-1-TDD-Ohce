@@ -13,6 +13,7 @@ class TestStringMethods(unittest.TestCase):
             expected_string = word[::-1]
         try:
             self.assertEqual(functions.handle_word(word), expected_string)
+            print("test approved, assertion passed")
         except AssertionError as e:
             print(f"Test for word '{word}' failed: {e}")
 
