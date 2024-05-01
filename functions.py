@@ -18,3 +18,8 @@ def handle_word(word):
         return word[::-1]
 def handle_stop(name):
     return f"Adios {name}!"
+
+def main_loop(name,word_1,word_2,word_3,word_4):
+    
+
+    return
