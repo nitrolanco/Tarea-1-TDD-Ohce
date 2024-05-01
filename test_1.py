@@ -4,9 +4,7 @@ import datetime
 
 class TestStringMethods(unittest.TestCase):
      
-    def test_welcome(self, name_ohce=None):  # Accept an optional argument for name_ohce
-        if name_ohce is None:
-            name_ohce = "Anibal" 
+    def test_welcome(self, name_ohce="Anibal"): 
         current_hour = datetime.datetime.now().hour
         if 20 <= current_hour < 24 or 0 <= current_hour < 6:
             expected_string = f'¡Buenas noches {name_ohce}!'
