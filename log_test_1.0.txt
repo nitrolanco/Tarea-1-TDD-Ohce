@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_welcome (__main__.TestStringMethods)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File ".\test_1.py", line 17, in test_welcome
+    self.assertEqual(functions.welcome(name_ohce), expected_string)
+AssertionError: None != '¡Buenas noches Anibal!'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+
