@@ -9,3 +9,7 @@ def welcome(name):
         return f'¡Buenos días {name}!'
     elif 12 <= current_hour < 20:
         return f'¡Buenas tardes {name}!'
+    
+
+def handle_word(word):
+    return
