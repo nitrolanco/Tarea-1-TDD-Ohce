@@ -1,3 +1,0 @@
-Test for word 'hola' failed: None != 'hola no es un palíndromo'
-Test for word 'vaca' failed: None != 'vaca no es un palíndromo'
-Test for word 'oso' failed: None != '¡Bonita palabra!'
